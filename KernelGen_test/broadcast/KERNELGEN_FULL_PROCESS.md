@@ -1486,4 +1486,4 @@ grid = lambda meta: (triton.cdiv(P, meta['BLOCK_M']), triton.cdiv(D, meta['BLOCK
 ---
 
 **最后更新**：2026-02-12
-**文档维护**：KernelGen团队
+**文档维护**：
