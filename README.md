@@ -8,6 +8,7 @@ KernelGen：An AI kernel generator and compiler for cross-architecture deploymen
 使用kernelGen生成算子
 
 - broadcast：广播操作本质是将低维张量的每个元素复制到高维的对应位置，每个输出元素仅关联低维张量中一个元素，符合逐点特征。
+- minimum：逐元素比较两个输入，返回对应位置的最小值。
 
 （2）flagGems_chat
 
